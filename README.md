@@ -30,6 +30,7 @@ A multi-task learning approach to person attribute recognition and re-identifica
 | gender | 87.80 | 89.37 | 82.14 |
 | uppercolor | 69.96 | 69.25 | 65.74 |
 | lowercolor | 66.14 | 64.30 | 62.89 |
+| **average** | **83.49** | **83.53** | **81.58** |
   
 </td><td valign="top">
   
