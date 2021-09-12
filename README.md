@@ -1,8 +1,6 @@
 # A Multi-Task Learning Approach to Attribute Recognition and Re-Identification
 
-**Azzolin Steve** \
-**Destro Matteo** \
-**Masina Gabriele**
+A multi-task learning approach to person attribute recognition and re-identification. Written in PTorch, trained and evaluated on the Market-1501 dataset.
 
 ## Get started
 This project was developed using Google Colab, to execute it:
