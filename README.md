@@ -5,9 +5,9 @@ A multi-task learning approach to person attribute recognition and re-identifica
 ## Model architecture
 
 <div align="center">
-  <img src="img/backbone.jpg" width="40%"/>
-  &emsp;&emsp;&emsp;
-  <img src="img/trinet.jpg" width="40%"/>
+  <img src="img/backbone.jpg" width="45%"/>
+  &emsp;
+  <img src="img/trinet.jpg" width="45%"/>
 </div>
 
 ## Results
