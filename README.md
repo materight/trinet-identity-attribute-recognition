@@ -1,6 +1,6 @@
 # A Multi-Task Learning Approach to Attribute Recognition and Re-Identification
 
-A multi-task learning approach to person attribute recognition and re-identification. Written in PTorch, trained and evaluated on the [Market-1501](https://github.com/vana77/Market-1501_Attribute) dataset.
+A multi-task learning approach to person attribute recognition and re-identification. Written in PTorch, trained and evaluated on the [Market-1501](https://github.com/vana77/Market-1501_Attribute) dataset. Check the [report](./report.pdf) for more implementation details.
 
 ## Model architecture
 
