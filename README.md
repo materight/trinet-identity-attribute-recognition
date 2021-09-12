@@ -1,7 +1,40 @@
 # A Multi-Task Learning Approach to Attribute Recognition and Re-Identification
 
-A multi-task learning approach to person attribute recognition and re-identification. Written in PTorch, trained and evaluated on the Market-1501 dataset.
+A multi-task learning approach to person attribute recognition and re-identification. Written in PTorch, trained and evaluated on the [Market-1501](https://github.com/vana77/Market-1501_Attribute) dataset.
 
+## Model architecture
+
+
+## Results
+
+<table>
+<tr><th>Attribute Recognition</th><th>Re-identification</th></tr>
+<tr><td>
+  
+| attribute | ResNet | ConvHead | Self-Attention |
+|:----------|-------:|---------:|---------------:|
+| age | 78.63 | 83.09 | 74.50 |
+| backpack | 81.83 | 82.86 | 75.98 |
+| bag | 73.97 | 70.08 | 75.36 |
+| handbag | 90.47 | 90.19 | 90.38 |
+| clothes | 89.47 | 92.10 | 92.36 |
+| down | 89.26 | 87.08 | 85.86 |
+| up | 93.94 | 93.62 | 93.10 |
+| hair | 84.10 | 84.03 | 84.12 |
+| hat | 96.35 | 96.47 | 96.51 |
+| gender | 87.80 | 89.37 | 82.14 |
+| uppercolor | 69.96 | 69.25 | 65.74 |
+| lowercolor | 66.14 | 64.30 | 62.89 |
+  
+</td><td valign="top">
+  
+|         | ResNet | ConvHead | Self-Attention |
+|:--------|-------:|---------:|---------------:|
+| **mAP** | 67.86  | 69.93    | 62.93          |
+
+</td></tr> 
+</table>
+  
 ## Get started
 This project was developed using Google Colab, to execute it:
 - Create a `Deep Learning` folder in the Google Drive root. Alternatively, change the `GDRIVE_HOME_PATH` constant in the notebook to use a custom root path.
