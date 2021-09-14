@@ -13,7 +13,7 @@ A multi-task learning approach to person re-identification and attribute recogni
 ## Results
 
 <table>
-<tr><th>Attribute Recognition</th><th>Re-identification</th></tr>
+<tr><th>Attribute Recognition Accuracy</th><th>Re-identification mAP</th></tr>
 <tr><td>
   
 | attribute | ResNet | ConvHead | Self-Attention |
@@ -34,9 +34,9 @@ A multi-task learning approach to person re-identification and attribute recogni
   
 </td><td valign="top">
   
-|         | ResNet | ConvHead | Self-Attention |
-|:--------|-------:|---------:|---------------:|
-| **mAP** | 67.86  | 69.93    | 62.93          |
+| ResNet | ConvHead | Self-Attention |
+|-------:|---------:|---------------:|
+| 67.86  | 69.93    | 62.93          |
 
 </td></tr> 
 </table>
